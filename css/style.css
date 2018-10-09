@@ -1,0 +1,425 @@
+/* base classes */
+.display-inline-block{
+	display: inline-block;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.cblue {
+	color: blue;
+}
+.margin0 {
+	margin-top: 0px !important;
+}
+
+
+.ffamily {
+	font-family: "bpgninomtavruliboldwebfont";
+}
+/* base classes */
+body.yellow{
+	background-color: yellow;
+
+}
+.container{
+	margin: 30px auto auto 30px;}
+
+.wrapper, .container{
+	margin: 30px auto auto 30px;
+}
+.red{
+	color: red;
+}
+.image{
+	margin-top: 30px;
+	width: 500px;
+}
+.title{
+	color: white;
+	font-size: 30px;
+}
+.par{
+	margin-top: 30px;
+}
+
+.logo{
+	width: 100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation{
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation-ul{
+	margin-left: 30px;
+}
+.navigation-li{
+	display: inline-block;
+}
+.navigation-a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: "bpgninomtavruliboldwebfont";
+	color: #3D58A6;
+	font-size: 22px;
+	line-height: 22px;
+	padding-top:7px; 
+	padding: 7px 7.5px 0 7.5px;
+	/*border: 5px solid red;*/
+}
+.navigation-a.active{
+	color: #EE4036;
+	/*color: rgb(238, 64, 54);*/
+}
+.banner-section{
+	margin-top: 22.5px;
+}
+.banner-img{
+	max-width: 1170px;
+	width: 100%
+}
+.navigation-li .test{
+	font-family: "ingiroArial";
+	/*font-family: "BPG Ingiri Arial", sans-serif;*/
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+.test2{
+	color: red;
+}
+
+.test1 > .test1{
+	color: blue;
+	width: 500px;
+	background-color: red;
+}
+.test .test2{
+	font-family: "ninoBold";
+}
+
+/* footer */
+.footer{
+	padding-top: 10px;
+	margin-left: 30px;
+	}
+.divider{
+	height: 30px;
+	width: 3px;
+	background-color: #3D58A6;
+	margin: auto 30px;
+}
+.social-img{
+	height: 30px;
+}
+
+.social-ul { 
+ margin-top: 100px 
+}
+.paddingtop0{
+	margin-top: 0px;
+}
+
+.margin-top {
+	margin-top:10px;
+}
+
+
+
+/* footer */
+
+/* conact container */
+.text-container{
+	background-color: gainsboro;
+	padding: 50px 30px;
+	margin-top: 30px;
+	
+}
+.text-container .title{
+	color: #3D58A6;
+	font-family: "bpgninomtavruliboldwebfont";
+	font-size: 20px;
+}
+.contact-li span{
+	color: #808080
+}
+.contact-li{
+	font-family: "ingiroArial";
+	color: #000000;
+}
+.contact-ul { 
+
+ }
+.map { 
+float: right;
+
+ }
+ .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* conact conainer */
+
+/* video conteiner */
+.all-video {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.video-container { 
+	max-width: 1170px;
+	width: 100%;
+background-color: ;
+
+
+ }
+ .video-right { 
+ 	width: 48%;
+ 	padding: 15px;
+    background-color: pink;
+    float: right;
+
+
+
+ 
+ }
+ .video-left {
+width: 48%;
+background-color: pink;
+padding: 15px;
+float: left;
+
+ }
+ .video-img { 
+width: 100px;
+float: left;
+  }
+ .video-img-right {
+ 	width: 147px;
+ 	float: left;
+
+  }
+
+
+
+  /* news conteiner */
+
+
+
+.newspage{
+	font-size: 40px;
+	background-color: #3D58A6;
+
+    max-width: max-content;
+    color: white;
+}
+.news-box { 
+margin-top: 30px;
+ }
+ .maisi { 
+ font-family: "ninoBold";
+ color: #3D58A6;
+ padding-top: 5px;
+  }
+  .news-paragraf { 
+  font-family: "ninoBold";
+  padding-top: 20px;
+   }
+   .news-img {
+  font-family: "ingiroArial";
+  display: inline-block;
+  padding-top: 20px;
+
+
+   }
+   .lion { 
+   max-width: 300px;
+   width:100%; 
+   display: inline-block;
+   padding-right: 20px;
+  }
+
+.textp {
+	display: inline-block;
+    max-width: 70%;
+    vertical-align: top;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
+/* news conteiner */
+
+
+
+
+
+
+/* style the container */
+
+.login-form1 {
+
+	margin-top: 30px;
+}
+
+.container1 {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  .video-left, .video-right {
+    width:100%;}
+
+
+/* video conteiner */
+
+
+
+
